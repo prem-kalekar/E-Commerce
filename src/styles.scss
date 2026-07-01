@@ -42,3 +42,9 @@ body {
 .elevated {
   box-shadow: var(--mat-sys-level2);
 }
+
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1rem;
+}
